@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <style>
+
+body {
+    font-family: roboto; 
+  }
+  form{
+    margin: 0 auto;
+    width: 525px;
+    padding: 20px;
+    background-color: #0a7433;
+    color: white;
+  }
+  label {
+    display: block;
+    width: 200px;
+    float: left;
+  } 
+  input[type=text], input[type=email], textarea {
+    display: block;
+    width: 500px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  .botoes {
+    width: 260px;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    font-weight: bold;
+    cursor: pointer;
+    
+  }
+
+      a {
+        font-size: 25px;
+        text-decoration: none;
+        font-family: 'Roboto';
+        color: white;
+      }
+    </style>
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="template.html" />
+    <link rel="stylesheet" href="sobre.html" />
+    <link rel="stylesheet" href="servicos.html" />
+    <link rel="stylesheet" href="contato.html" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu">
+        <ul>
+          <li><a href="template.html">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="contato.html">Contatos</a></li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <div class="header">
+          <img src="FOTOS/CONTATO.png" alt="" width="100%" />
+        </div>
+
+        <div class="content">
+          
+          <form action="" onsubmit="" method="get">        
+            
+            <p align="center"><font size="7"><strong>Fale Conosco</strong></font></p>
+            <form action="" align="center">
+              <label>Nome:</label>
+              <input type="text" name="nome"/>
+              <label>E-mail:</label>
+              <input type="email" name="email"/>
+              <label>Assunto:</label>
+              <input type="text" name="assunto"/>
+              <label>Mensagem:</label>
+              <textarea name="mensagem" rows="4"></textarea>
+              <input type="submit" class="botoes" value="Enviar"/>
+              <input type="reset" class="botoes" value="Limpar"/>
+
+              <p align="center"><font size="4"> Tel: (19) 9999-9999 WhatsApp: (19) 9 9999-9999 <br> Rua: Das Arvores, Nº1345, Santa Bárbara</font></p>
+            </form>           
+
+            <p align="center"><font><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117736.48831048577!2d-47.430655699999996!3d-22.755535149999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c89d97dedd345f%3A0xfa0858713f645375!2sSanta%20B%C3%A1rbara%20d&#39;Oeste%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1673480731788!5m2!1spt-BR!2sbr" width="567" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></font></p>      
+        </div>
+
+
+        <div class="footer" align="center">
+
+          <font size="5" color="white"><small>Desenvolvido por <strong>Bianca Brandão</strong></small></font><br><br>
+
+          <a href="https://github.com/biabrandaosv" target="_blank">
+            <img src="FOTOS/github.png" alt="Icone GitHub" width="3%" />
+          </a>
+          <a href="https://www.instagram.com/biabrandaosv/" target="_blank">
+            <img src="FOTOS/INSTAGRAM.png" alt="Icone Instagram" width="3%" />
+          </a>
+          <a href="https://www.linkedin.com/in/biancabrand%C3%A3o/" target="_blank">
+            <img src="FOTOS/linkedin.png" alt="Icone LinkedIn" width="3%" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
